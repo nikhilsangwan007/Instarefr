@@ -3,11 +3,11 @@ var myApp = angular.module('myApp', ['ngRoute', 'ngCookies', 'ngMessages']);
 	// INITIATING FB FUNTION ASYNHRONOUSLY
 	window.fbAsyncInit = function() {
 	    FB.init({ 
-	      appId: '1525793961071513',
+	      appId: '1154376217983383',
 	      status: true, 
 	      cookie: true, 
 	      xfbml: true,
-	      version: 'v2.4'
+	      version: 'v2.7'
 	    });
 	};
 
