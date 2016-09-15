@@ -1,0 +1,223 @@
+/*CLASSES*/
+/*NAVBAR STYLES*/
+.container-fluid {
+	/*background-image: url(../images/img4.jpg);*/
+	width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center; 
+	height: 15em;	/*IF HEIGHT OF NAVBAR CHANGE THEN CHANGE THE HEIGHT OF .CLEAR !IMPORTANT*/
+	margin: 0 0 0 0;
+	background-color: #009688;
+}
+
+.clear {
+	height: 15em;
+	clear: both;
+}
+
+.navbar-toggle {
+	color: white;
+}
+
+.form-control {
+	border-width: 0.1em;
+	border-color: #009688;
+	margin-bottom: 2em;
+	height: 4em;
+}
+
+.control-label col-sm-2{
+	font-size: 5em;
+}
+
+.form-horizontal{
+	margin-top: 5%;
+}
+
+.page-title {
+	margin-left: 42%;
+	margin-top: 1em;
+	color: #009688;
+}
+
+.lower-navbar {
+	margin-top: 0;
+	background-color: white;
+}
+
+.info-pack {
+	height: 150px;
+	background-color: #B2EBF2;
+	z-index: 10;
+}
+
+.info-items {
+	margin-bottom: 5%;
+	margin-top: 5%;
+	white-space:nowrap; 
+	height: 1em;
+	width: 100%;
+}
+
+.info-items li {
+	margin-left: 3em;
+	list-style-type: none;
+	display: inline;
+}
+
+.sociaLinks a {
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: bold;
+	color: #546E7A;
+}
+
+/*ID STYLES*/
+/*BRAND STYLES*/
+#navbar-brand {
+	margin-top: 1.8em;
+	margin-left: 5%;
+	color: white;
+	font-size: 3em;
+}
+
+/*SKILLS INPUT*/
+#skills {
+	height: 3em;
+	border-color: #009688;
+	margin-top: 4em;
+}
+
+#myNavbar ul{
+	margin-left: 2em;
+	margin-top: 1.4em;
+}
+
+#myNavbar ul li a {
+	color: white;
+}
+
+#myNavbar ul li a:hover {
+	background-color: #009688;
+}
+
+#dropdown{
+	margin-right: 2em;
+	width: 10em;
+	background-color: #00796B;
+}
+
+#dropdown li a {
+	color: white;
+}
+
+#dropdown li a:hover{
+	background-color: #00796B;
+}
+
+#about-company-id {
+	color: #009688;
+	margin-left: 43%;
+	font-size: 4em;
+	font-family: 'roboto';
+	margin-bottom: 3%;
+}
+
+#about-company {
+	color: #009688;
+	font-size: 2em;
+	padding: 0;
+}
+
+/*#formPreview .modal-dialog  {
+	width: 90%;
+}*/
+
+#title-row {
+	margin-top: 3em;
+	margin-bottom: 1em;
+}
+
+#job-title {
+	font-size: 4em;
+	font-family: 'roboto';
+	color: #009688;
+	margin-left: 42%;
+}
+
+#input-info-row {
+	margin-left: 1em;
+	margin-top: 1em;
+	margin-bottom: 3em;
+}
+
+#input-info-row .col-md-2 {
+	font-size: 1.3em;
+	color: #616161;
+}
+
+#company-details-row {
+	margin-top: 1em;
+	margin-bottom: 3em;
+}
+
+#company-social-details{
+	color: #009688;
+	font-size: 2em;
+	padding: 0;
+}
+
+#other-details-row {
+	margin-top: 1em;
+	margin-bottom: 3em;
+}
+
+#overview {
+	color: pink;
+	font-size: 3em;
+	padding: 0;
+	font-family: 'roboto';
+}
+
+#logo {
+	background-color: #FF5722;
+}
+
+#image {
+	background-color: red;
+}
+
+#logo {
+	background-color: blue;
+}
+
+#nav-photo {
+	margin-top: 0.5em;
+	margin-right: 1em;
+	border-radius: 20px;
+}
+
+/*TAGS STYLE*/
+
+body .modal {
+	width: 80%;
+	height: 90%;
+	margin: auto;
+}
+
+/*LOGIN SIGNUP STYLES*/
+a {
+	color: white;
+}
+
+label {
+	color: #009688;
+}
+
+
+

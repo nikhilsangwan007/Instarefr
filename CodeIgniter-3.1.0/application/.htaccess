@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteBase /instarefr
+RewriteCond $1 !^(index\.php|images|robots\.txt|css|js)
+RewriteRule ^(.*)$ /index.php/$1 [L]
