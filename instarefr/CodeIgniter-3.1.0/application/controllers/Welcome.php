@@ -20,7 +20,6 @@ class Welcome extends CI_Controller {
 	 */
 	public function _construct()
 	{
-		$this->load->model('user_model');
 		$this->load->helper('url');
 		$this->load->helper('cookie');
 		parent::__construct();
@@ -67,7 +66,7 @@ class Welcome extends CI_Controller {
 						  'photo_url' => $photo_url
 						 );
 
-		$usuario = $this->load->model('User_model');
+		$usuario = $this->load->model('user_model');
 		$result = $this->user_model->add_user($user_data);
 		$otp  =  hash("md5", $this->generate_otp());
 		$set_otp =  $this->user_model->add_otp($otp,$id);
